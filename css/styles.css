@@ -1,0 +1,138 @@
+#title {
+  background: #ff4c68;
+  color: white;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p {
+  color: rgb(77, 75, 75);
+}
+.container-fluid {
+  padding: 3% 15% 12%;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar {
+  padding-bottom:0 0 4.5rem;
+  
+  
+}
+.nav-item {
+  padding: 0 18px;
+  
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+
+/* button */
+.down {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+  
+  
+}
+
+
+#features {
+  padding: 5% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+.feature {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.logo{
+    width: 15%;
+    margin:20px 20px 15px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+/* pricing card deck */
+.a{
+    padding:3% 2%;
+    
+}
+@media (max-width:1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align:center;
+}
+
+.abc{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 3rem;
+} 
+
+#footer{
+    background-color: white;
+    padding:50px;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
